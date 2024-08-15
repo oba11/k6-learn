@@ -30,6 +30,15 @@ npm install
 npm run slides
 ```
 
+#### Running the slides with docker
+
+In your terminal, run the following command:
+
+```sh
+docker build -t k6-learn .
+docker run -p 5173:5173 k6-learn
+```
+
 ### I: Performance testing principles
 
 - [Introduction to Performance Testing](Modules/I-Performance-testing-principles/01-Introduction-to-Performance-Testing.md)
